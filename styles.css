@@ -52,7 +52,6 @@ table {
 
 /* apply natural box layout model */
 
-<<<<<<< HEAD
 html {
     box-sizing: border-box;
 }
@@ -70,9 +69,6 @@ html {
 .clearfix:after {
     clear: both;
 }
-=======
-/********************* General Styles ********************/
->>>>>>> FETCH_HEAD
 
 /*================== General Styles =================*/
 
@@ -510,47 +506,24 @@ hr {
 }
 
 .howitworks img {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> FETCH_HEAD
     margin-top: 25px;
     margin-bottom: 30px;
-    width: 90%;
+    max-width: 90%;
 
-<<<<<<< HEAD
 }
 
 .howitworks-steps {
-    display: flex;
     text-align: center;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-=======
     display: block;
-    margin: 75px auto 60px;
-    max-width: 90%;
-}
+    margin: 0 auto 60px;
 
-
-.howitworks ol {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0 auto;
 }
 
 .howitworks-steps li {
     max-width: 25%;
     float: left;
->>>>>>> fluid-design
-=======
-}
-
-.howitworks-steps {
-    display: flex;
-    text-align: center;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
->>>>>>> FETCH_HEAD
     font-weight: 700;
     text-transform: uppercase;
  
@@ -907,11 +880,8 @@ footer a[href="tel:+987-9976-999"]::before {
     color: #ffc155;
 }
 
-<<<<<<< HEAD
 
 /*================== Media Queries =================*/
 
 
 
-=======
->>>>>>> FETCH_HEAD
