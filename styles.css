@@ -1,0 +1,917 @@
+/*================== CSS Reset =================*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* apply natural box layout model */
+
+<<<<<<< HEAD
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+=======
+/********************* General Styles ********************/
+>>>>>>> FETCH_HEAD
+
+/*================== General Styles =================*/
+
+body {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-family: 'Hind', sans-serif;
+    letter-spacing: 0.05rem;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #394b50;
+
+}
+h3 {
+    font-size: 1.023rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #394b50;
+    margin-top: 4px;
+    margin-bottom: 93px;
+}
+
+
+hr {
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: #e2e9f0;
+    width: 85.5%;
+}
+
+.top {
+    background-color: #333;
+    position: fixed;
+    width: 50px;
+    bottom: 0;
+    right: 10px;
+    opacity: 0.4;
+    display: none;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.top:hover {
+    opacity: 1;
+}
+
+/*================== Heading =================*/
+
+.main-header {
+    padding: 0rem 1rem 1rem;
+}
+.header-logo {
+    float: left;
+    width: 50px;
+    margin-top: 1rem;   
+}
+
+.main-nav {
+    float: right;
+    margin-top: 2rem;
+}
+
+.main-nav ul {
+    width: 100%;
+}
+.nav-buttons li {
+    display: inline-block;
+}
+
+.nav-buttons a {
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #868686;
+    font-size: 0.8rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/*================== Quote =================*/
+
+
+.quote {
+    padding-bottom: 400px;
+    background: #709dca;
+}
+
+.quote h1 {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 110px;
+    text-align: center;
+}
+.quote h3 {
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    margin-bottom: 30px;
+}
+
+.quote-form {
+    text-align: center;
+}
+
+.quote-form input {
+    height: 50px;
+    width: 22.991453%;
+    border: none;
+    border-radius: 2px;
+    line-height: 50px;
+    font-size: 0.9rem;
+    padding: 6px;
+}
+
+.quote-form a,
+.newsletter form a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    background: #ffbb42;
+    padding: 14px 33px;
+    border-radius: 2px;
+}
+
+
+
+.input-gutter {
+    margin-left: 10px;
+}
+
+.quote-form ::-webkit-input-placeholder,
+.newsletter form ::-webkit-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+}
+.quote-form ::-moz-input-placeholder,
+.newsletter form ::-moz-input-placeholder  {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+}
+.quote-form :-ms-input-placeholder,
+.newsletter form :-ms-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+}
+
+
+.img-laptop {
+    display: block;
+    margin: 50px auto -500px;
+    padding: 0 261px;
+    max-width: 100%;
+
+}
+
+
+/*================== Our Services =================*/
+
+.services {
+    color: #394b50;
+    margin: 0 auto 75px;
+}
+
+
+.services h2 {
+    margin-top: 190px;
+}
+
+.services-left {
+    float: left;
+    max-width: 50%;
+    padding: 0 4%; 
+}
+
+.services-right {
+    float: right;
+    max-width: 50%;
+    padding: 0 4% 4%; 
+}
+
+.services ul :nth-child(odd) {
+    text-transform: uppercase;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-left: 81px;
+}
+.services ul :nth-child(even) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 60px; 
+    display: inline-block;
+    margin-left: 81px; 
+}
+
+
+
+
+
+
+.icon-clock:before {
+    content: '\f017';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 80px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #709dca;
+    font-size: 3rem;
+    color: white;
+    top: 25px;
+    position: relative;
+    margin-left: -81px;
+}
+.icon-grad:before {
+    content: '\f19d';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 80px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #709dca;
+    font-size: 3rem;
+    color: white;
+    top: 25px;
+    position: relative;
+    margin-left: -81px;
+}
+.icon-code:before {
+    content: '\f121';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 80px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #709dca;
+    font-size: 3rem;
+    color: white;
+    top: 25px;
+    position: relative;
+    margin-left: -81px;
+}
+.icon-responsive:before {
+    content: '\f10a';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 80px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #709dca;
+    font-size: 3rem;
+    color: white;
+    top: 25px;
+    position: relative;
+    margin-left: -81px;
+}
+.icon-retina:before {
+    content: '\f06e';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 80px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #709dca;
+    font-size: 3rem;
+    color: white;
+    top: 25px;
+    position: relative;
+    margin-left: -81px;
+}
+.icon-flat:before {
+    content: '\f044';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 80px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #709dca;
+    font-size: 3rem;
+    color: white;
+    top: 25px;
+    position: relative;
+    margin-left: -81px;
+}
+
+
+/*================== About Us =================*/
+
+.aboutus {
+    max-width: 1170px;
+    background: #ffc155;
+}
+
+
+.img-aboutus {
+    max-width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.aboutus h2 {
+    padding: 131px 0 25px 0;
+    color: white;
+}
+
+.aboutus p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    line-height: 1.8rem;
+    padding-right: 30px;
+    margin-bottom: 45px;
+}
+
+.aboutus a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    background: #709dca;
+    padding: 13px 33px;
+    border-radius: 2px;
+}
+
+
+
+
+/*================== Choose Your Price =================*/
+
+.chooseprice {
+    background: #e7edf3;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #394b50;
+    padding-bottom: 160px;
+    padding-top: 110px;
+    clear: both;
+}
+
+.chooseprice div {
+    text-transform: uppercase;
+}
+.chooseprice-basic {
+    width: 33%;
+    background: white;
+    display: inline-block;
+    border-radius: 2px;
+    transition: 0.25s ease-in-out;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+}
+.chooseprice ul {
+    padding: 0;
+    margin-bottom: 20px;
+}
+.chooseprice-premium {
+    width: 33%;
+    background: white;
+    display: inline-block;
+    border-radius: 2px;
+    transition: 0.25s ease-in-out;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+}
+.chooseprice-gold {
+    width: 33%;
+    background: white;
+    display: inline-block;
+    border-radius: 2px;
+    transition: 0.25s ease-in-out;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+}
+.chooseprice-heading {
+    font-size: 1.5em;
+    padding: 55px 0 30px 0;
+}
+
+
+
+.chooseprice-pricing {
+    font-size: 3.5em;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #ffbb42; 
+}
+    
+
+.chooseprice-pricing::first-letter {
+    vertical-align: super;
+    font-size: 0.75em;
+}
+
+.chooseprice ul :nth-child(2n+5) {
+    padding: 15px 0;
+}
+.chooseprice-pm {
+    display: block;
+    margin-bottom: 32px;
+}
+.chooseprice a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    background: #ffbb42;
+    padding: 17px 28px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+/*================== How It Works =================*/
+
+
+.howitworks {
+    text-align: center;
+    padding: 140px 0 50px 0;
+}
+
+.howitworks img {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> FETCH_HEAD
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 90%;
+
+<<<<<<< HEAD
+}
+
+.howitworks-steps {
+    display: flex;
+    text-align: center;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+=======
+    display: block;
+    margin: 75px auto 60px;
+    max-width: 90%;
+}
+
+
+.howitworks ol {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.howitworks-steps li {
+    max-width: 25%;
+    float: left;
+>>>>>>> fluid-design
+=======
+}
+
+.howitworks-steps {
+    display: flex;
+    text-align: center;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+>>>>>>> FETCH_HEAD
+    font-weight: 700;
+    text-transform: uppercase;
+ 
+}
+
+
+.howitworks small {
+    padding: 20px 50px;
+    font-size: 0.75em;
+    text-transform: none;
+    font-weight: 300;
+    display: block;
+    
+}
+
+.howitworks a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    background: #ffbb42;
+    padding: 17px 28px;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    margin: 50px 0 60px;
+    
+}
+
+
+/*================== Happy Clients =================*/
+
+
+.happyclients {
+    background: #ffc155
+}
+
+
+
+.happyclients h2 {
+    padding-top: 120px;
+    margin-bottom: 0;
+    color: white;
+}
+.happyclients h3 {
+    margin: 5px 0 50px;
+    color: white;
+}
+
+.happyclients-profile-container {
+    margin-bottom: 90px;
+}
+
+.happyclients-profile {
+    float: left;
+    max-width: 46%;
+    background: white;
+    margin: 2%;
+}
+
+
+.happyclients-profile blockquote {
+    margin: 30px 20px 20px 170px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.9em;
+    font-size: 0.8em;
+    quotes: "\201C" "\201D";
+}
+.happyclients-profile blockquote:before {
+    content: open-quote;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-size: 2em;
+    margin-left: -20px;
+    padding-right: 7px;
+}
+.happyclients-profile blockquote:after {
+    content: close-quote;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-size: 2em;
+    margin-right: -20px;
+    padding-left: 4px;
+}
+
+.happyclients-profile span {
+    display: block;
+    margin: 25px 10px 36px 170px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.happyclients-name {
+    font-style: normal;
+    color: #f6772c;
+}
+.crop {
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 35px 5px 0 20px;
+    float: left;
+}
+.crop img[src*="darwinmichle"] {
+    margin: -10px 0 0 -5px;
+}
+.crop img[src*="madame"] {
+    margin: -30px 0 0 -30px;
+}
+.crop img[src*="clipsarter"] {
+    margin: -25px 0 0 -15px;
+}
+.crop img[src*="zamc"] {
+    margin: -5px 0 0 -27px;
+}
+
+
+
+
+/*================== Newsletter =================*/
+
+
+
+.newsletter {
+    padding-bottom: 50px;
+}
+
+
+.newsletter h2 {
+    margin: 150px 0 10px 0;
+}
+
+
+
+.newsletter form {
+    margin: 50px 0 0 190px;
+}
+.newsletter form input {
+    border: 1px solid #e2e9f0;
+    border-width: thin;
+    height: 50px;
+    width: 269px;
+    border-radius: 2px;
+    line-height: 50px;
+    font-size: 0.9rem;
+    padding: 6px;
+}
+.address-wrapper {
+    background-image: url("img/map.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%; 
+    padding-bottom: 201px;
+    margin-top: 20px;
+    padding-top: 75px;
+    max-width: 100%;
+}
+
+
+.address-circle {
+    border-radius: 50%;
+    height: 0;
+    width: 23.93%;
+    padding-bottom: 23.93%;
+    text-align: center;
+    margin: 0 auto -1px;
+    background-color: #394b50;
+}
+
+.address-circle ul {
+    display: block;
+    margin: 0 auto;
+    padding-top: 11.965%;
+}
+
+.address-circle ul {
+    font-family: 'Open Sans', sans-serif;
+    color: #acb0b2;
+    line-height: 2em;
+    font-size: 0.8em;
+    
+
+}
+.address-circle ul li:first-of-type {
+    text-transform: uppercase;
+    color: white;
+    line-height: 4em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.address-circle ul li:last-of-type {
+    color: #ffbb42;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 14px solid #394b50;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    margin: 0 auto;
+}
+.address-wrapper img {
+    display: block;
+    margin: 7px auto 0;
+}
+.newsletter hr {
+    width: 100%;
+}
+
+
+/*================== Footer =================*/
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    margin-bottom: 30px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #394b50;
+}
+
+.social i {
+    margin: 20px 10px 50px;
+    color: #709dca;
+    font-size: 1.5rem;
+
+}
+.page-end {
+    padding-top: 45px;
+    width: 100%;
+    background-color: #709dca;
+}
+
+
+
+/*================== Shared Icons =================*/
+
+
+
+.form-name::-webkit-input-placeholder::before,
+.newsletter-name::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f007';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;   
+}
+.form-name::-moz-input-placeholder::before,
+.newsletter-name::-moz-input-placeholder::before {
+     font-family: fontAwesome;
+    content:'\f007';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;  
+}
+.form-name:-ms-input-placeholder::before,
+.newsletter-name:-ms-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f007';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;  
+}
+
+
+.form-email::-webkit-input-placeholder::before,
+.newsletter-email::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f0e0';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;   
+}
+.form-email::-moz-input-placeholder::before,
+.newsletter-email::-moz-input-placeholder::before {
+     font-family: fontAwesome;
+    content:'\f0e0';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;  
+}
+.form-email:-ms-input-placeholder::before,
+.newsletter-email:-ms-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f0e0';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;  
+}
+
+
+.form-phone::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f095';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;   
+}
+.form-phone::-moz-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f095';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;  
+}
+.form-phone:-ms-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f095';
+    color: #6e6e6e;
+    font-size: 1.3rem;
+    margin-right: 8px;  
+}
+
+footer a[href="tel:+987-9976-999"]::before {
+    font-family: fontAwesome;
+    content:'\f095';
+    color: #394b50;
+    font-size: 1.2rem;
+    margin-right: 8px;   
+}
+
+/*================== State =================*/
+
+
+.nav-buttons a:hover {
+    color: white;
+    background: #ffbb42;
+}
+.quote-form a:hover,
+.chooseprice a:hover,
+.howitworks a:hover,
+.newsletter form a:hover {
+    background-color: #ffad1b;
+}
+.aboutus-content a:hover {
+    background: #5891ca;
+}
+
+.chooseprice div:hover {
+    background-color: #709dca;
+    color: white;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+}
+.social a i:hover {
+    color: #ffc155;
+}
+
+<<<<<<< HEAD
+
+/*================== Media Queries =================*/
+
+
+
+=======
+>>>>>>> FETCH_HEAD
