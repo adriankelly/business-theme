@@ -175,9 +175,7 @@ hr {
     width: 100%;
 }
 
-/********************************
- * UP TO HERE
- */
+
 
 
 /*================== Quote =================*/
@@ -187,18 +185,21 @@ hr {
     background: #709dca;
 }
 
+
 .quote h1 {
     color: white;
     text-transform: uppercase;
     padding-top: 110px;
     text-align: center;
 }
+
 .quote h3 {
     color: white;
     text-align: center;
     padding-top: 2px;
     margin-bottom: 30px;
 }
+
 
 .quote-form {
     text-align: center;
@@ -226,8 +227,6 @@ hr {
     border-radius: 2px;
 }
 
-
-
 .input-gutter {
     margin-left: 10px;
 }
@@ -237,11 +236,13 @@ hr {
     font-family: 'Open Sans', sans-serif;
     padding-left: 10px;
 }
+
 .quote-form ::-moz-input-placeholder,
 .newsletter form ::-moz-input-placeholder  {
     font-family: 'Open Sans', sans-serif;
     padding-left: 10px;
 }
+
 .quote-form :-ms-input-placeholder,
 .newsletter form :-ms-input-placeholder {
     font-family: 'Open Sans', sans-serif;
@@ -258,6 +259,8 @@ hr {
 }
 
 
+
+
 /*================== Our Services =================*/
 
 .services {
@@ -269,6 +272,7 @@ hr {
 .services h2 {
     margin-top: 190px;
 }
+
 
 .services-left {
     float: left;
@@ -282,6 +286,7 @@ hr {
     padding: 0 4% 4%; 
 }
 
+
 .services ul :nth-child(odd) {
     text-transform: uppercase;
     font-family: 'Droid Sans', sans-serif;
@@ -289,6 +294,7 @@ hr {
     font-weight: 700;
     margin-left: 81px;
 }
+
 .services ul :nth-child(even) {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
@@ -297,10 +303,6 @@ hr {
     display: inline-block;
     margin-left: 81px; 
 }
-
-
-
-
 
 
 .icon-clock:before {
@@ -316,6 +318,7 @@ hr {
     position: relative;
     margin-left: -81px;
 }
+
 .icon-grad:before {
     content: '\f19d';
     font-family: FontAwesome;
@@ -329,6 +332,7 @@ hr {
     position: relative;
     margin-left: -81px;
 }
+
 .icon-code:before {
     content: '\f121';
     font-family: FontAwesome;
@@ -342,6 +346,7 @@ hr {
     position: relative;
     margin-left: -81px;
 }
+
 .icon-responsive:before {
     content: '\f10a';
     font-family: FontAwesome;
@@ -355,6 +360,7 @@ hr {
     position: relative;
     margin-left: -81px;
 }
+
 .icon-retina:before {
     content: '\f06e';
     font-family: FontAwesome;
@@ -368,6 +374,7 @@ hr {
     position: relative;
     margin-left: -81px;
 }
+
 .icon-flat:before {
     content: '\f044';
     font-family: FontAwesome;
@@ -381,6 +388,8 @@ hr {
     position: relative;
     margin-left: -81px;
 }
+
+
 
 
 /*================== About Us =================*/
@@ -402,6 +411,7 @@ hr {
     padding: 131px 0 25px 0;
     color: white;
 }
+
 
 .aboutus p {
     font-family: 'Open Sans', sans-serif;
@@ -438,9 +448,16 @@ hr {
     clear: both;
 }
 
+
 .chooseprice div {
     text-transform: uppercase;
 }
+
+.chooseprice ul {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
 .chooseprice-basic {
     width: 33%;
     background: white;
@@ -451,10 +468,7 @@ hr {
     -moz-transition: 0.25s ease-in-out;
     -o-transition: 0.25s ease-in-out;
 }
-.chooseprice ul {
-    padding: 0;
-    margin-bottom: 20px;
-}
+
 .chooseprice-premium {
     width: 33%;
     background: white;
@@ -465,6 +479,7 @@ hr {
     -moz-transition: 0.25s ease-in-out;
     -o-transition: 0.25s ease-in-out;
 }
+
 .chooseprice-gold {
     width: 33%;
     background: white;
@@ -475,12 +490,11 @@ hr {
     -moz-transition: 0.25s ease-in-out;
     -o-transition: 0.25s ease-in-out;
 }
+
 .chooseprice-heading {
     font-size: 1.5em;
     padding: 55px 0 30px 0;
 }
-
-
 
 .chooseprice-pricing {
     font-size: 3.5em;
@@ -488,7 +502,6 @@ hr {
     padding-bottom: 10px;
     color: #ffbb42; 
 }
-    
 
 .chooseprice-pricing::first-letter {
     vertical-align: super;
@@ -498,10 +511,12 @@ hr {
 .chooseprice ul :nth-child(2n+5) {
     padding: 15px 0;
 }
+
 .chooseprice-pm {
     display: block;
     margin-bottom: 32px;
 }
+
 .chooseprice a {
     text-decoration: none;
     text-transform: uppercase;
@@ -516,13 +531,15 @@ hr {
 }
 
 
-/*================== How It Works =================*/
 
+
+/*================== How It Works =================*/
 
 .howitworks {
     text-align: center;
     padding: 140px 0 50px 0;
 }
+
 
 .howitworks img {
     margin-top: 25px;
@@ -531,13 +548,13 @@ hr {
 
 }
 
+
 .howitworks-steps {
     text-align: center;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     display: block;
     margin: 0 auto 60px;
-
 }
 
 .howitworks-steps li {
@@ -545,9 +562,7 @@ hr {
     float: left;
     font-weight: 700;
     text-transform: uppercase;
- 
 }
-
 
 .howitworks small {
     padding: 20px 50px;
@@ -557,6 +572,7 @@ hr {
     display: block;
     
 }
+
 
 .howitworks a {
     text-decoration: none;
@@ -570,17 +586,16 @@ hr {
     display: inline-block;
     text-align: center;
     margin: 50px 0 60px;
-    
 }
+
+
 
 
 /*================== Happy Clients =================*/
 
-
 .happyclients {
     background: #ffc155
 }
-
 
 
 .happyclients h2 {
@@ -588,10 +603,12 @@ hr {
     margin-bottom: 0;
     color: white;
 }
+
 .happyclients h3 {
     margin: 5px 0 50px;
     color: white;
 }
+
 
 .happyclients-profile-container {
     margin-bottom: 90px;
@@ -604,7 +621,6 @@ hr {
     margin: 2%;
 }
 
-
 .happyclients-profile blockquote {
     margin: 30px 20px 20px 170px;
     font-family: 'Open Sans', sans-serif;
@@ -612,6 +628,7 @@ hr {
     font-size: 0.8em;
     quotes: "\201C" "\201D";
 }
+
 .happyclients-profile blockquote:before {
     content: open-quote;
     font-family: 'IM Fell Great Primer SC', serif;
@@ -619,6 +636,7 @@ hr {
     margin-left: -20px;
     padding-right: 7px;
 }
+
 .happyclients-profile blockquote:after {
     content: close-quote;
     font-family: 'IM Fell Great Primer SC', serif;
@@ -634,10 +652,12 @@ hr {
     text-transform: uppercase;
     font-size: 0.8em;
 }
+
 .happyclients-name {
     font-style: normal;
     color: #f6772c;
 }
+
 .crop {
     width: 125px;
     height: 125px;
@@ -646,15 +666,19 @@ hr {
     margin: 35px 5px 0 20px;
     float: left;
 }
+
 .crop img[src*="darwinmichle"] {
     margin: -10px 0 0 -5px;
 }
+
 .crop img[src*="madame"] {
     margin: -30px 0 0 -30px;
 }
+
 .crop img[src*="clipsarter"] {
     margin: -25px 0 0 -15px;
 }
+
 .crop img[src*="zamc"] {
     margin: -5px 0 0 -27px;
 }
@@ -663,8 +687,6 @@ hr {
 
 
 /*================== Newsletter =================*/
-
-
 
 .newsletter {
     padding-bottom: 50px;
@@ -676,10 +698,10 @@ hr {
 }
 
 
-
 .newsletter form {
     margin: 50px 0 0 190px;
 }
+
 .newsletter form input {
     border: 1px solid #e2e9f0;
     border-width: thin;
@@ -690,6 +712,8 @@ hr {
     font-size: 0.9rem;
     padding: 6px;
 }
+
+
 .address-wrapper {
     background-image: url("img/map.jpg");
     background-repeat: no-repeat;
@@ -700,7 +724,6 @@ hr {
     padding-top: 75px;
     max-width: 100%;
 }
-
 
 .address-circle {
     border-radius: 50%;
@@ -723,9 +746,8 @@ hr {
     color: #acb0b2;
     line-height: 2em;
     font-size: 0.8em;
-    
-
 }
+
 .address-circle ul li:first-of-type {
     text-transform: uppercase;
     color: white;
@@ -733,6 +755,7 @@ hr {
     font-size: 1.2em;
     font-weight: 700;
 }
+
 .address-circle ul li:last-of-type {
     color: #ffbb42;
 }
@@ -745,13 +768,17 @@ hr {
     border-right: 7px solid transparent;
     margin: 0 auto;
 }
+
 .address-wrapper img {
     display: block;
     margin: 7px auto 0;
 }
+
 .newsletter hr {
     width: 100%;
 }
+
+
 
 
 /*================== Footer =================*/
@@ -759,6 +786,7 @@ hr {
 footer {
     text-align: center;
 }
+
 
 footer ul {
     margin-bottom: 30px;
@@ -772,12 +800,14 @@ footer > a {
     color: #394b50;
 }
 
+
 .social i {
     margin: 20px 10px 50px;
     color: #709dca;
     font-size: 1.5rem;
-
 }
+
+
 .page-end {
     padding-top: 45px;
     width: 100%;
@@ -786,9 +816,8 @@ footer > a {
 
 
 
+
 /*================== Shared Icons =================*/
-
-
 
 .form-name::-webkit-input-placeholder::before,
 .newsletter-name::-webkit-input-placeholder::before {
@@ -798,6 +827,7 @@ footer > a {
     font-size: 1.3rem;
     margin-right: 8px;   
 }
+
 .form-name::-moz-input-placeholder::before,
 .newsletter-name::-moz-input-placeholder::before {
      font-family: fontAwesome;
@@ -806,6 +836,7 @@ footer > a {
     font-size: 1.3rem;
     margin-right: 8px;  
 }
+
 .form-name:-ms-input-placeholder::before,
 .newsletter-name:-ms-input-placeholder::before {
     font-family: fontAwesome;
@@ -815,7 +846,6 @@ footer > a {
     margin-right: 8px;  
 }
 
-
 .form-email::-webkit-input-placeholder::before,
 .newsletter-email::-webkit-input-placeholder::before {
     font-family: fontAwesome;
@@ -824,6 +854,7 @@ footer > a {
     font-size: 1.3rem;
     margin-right: 8px;   
 }
+
 .form-email::-moz-input-placeholder::before,
 .newsletter-email::-moz-input-placeholder::before {
      font-family: fontAwesome;
@@ -832,6 +863,7 @@ footer > a {
     font-size: 1.3rem;
     margin-right: 8px;  
 }
+
 .form-email:-ms-input-placeholder::before,
 .newsletter-email:-ms-input-placeholder::before {
     font-family: fontAwesome;
@@ -841,7 +873,6 @@ footer > a {
     margin-right: 8px;  
 }
 
-
 .form-phone::-webkit-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f095';
@@ -849,6 +880,7 @@ footer > a {
     font-size: 1.3rem;
     margin-right: 8px;   
 }
+
 .form-phone::-moz-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f095';
@@ -856,6 +888,7 @@ footer > a {
     font-size: 1.3rem;
     margin-right: 8px;  
 }
+
 .form-phone:-ms-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f095';
@@ -872,22 +905,29 @@ footer a[href="tel:+987-9976-999"]::before {
     margin-right: 8px;   
 }
 
-/*================== State =================*/
 
+
+
+/*================== State =================*/
 
 .nav-buttons a:hover {
     color: white;
     background: #ffbb42;
 }
+
+
 .quote-form a:hover,
 .chooseprice a:hover,
 .howitworks a:hover,
 .newsletter form a:hover {
     background-color: #ffad1b;
 }
+
+
 .aboutus-content a:hover {
     background: #5891ca;
 }
+
 
 .chooseprice div:hover {
     background-color: #709dca;
@@ -895,9 +935,13 @@ footer a[href="tel:+987-9976-999"]::before {
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
 }
+
+
 .social a i:hover {
     color: #ffc155;
 }
+
+
 
 
 /*================== Media Queries =================*/
