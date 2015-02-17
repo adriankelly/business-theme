@@ -1,8 +1,6 @@
 /*================== CSS Reset =================*/
 
 
-/*TEST BRANCH*/
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -154,7 +152,7 @@ hr {
 
 
 
-/*================== Heading =================*/
+/*================== Header =================*/
 
 .main-header {
     padding: 0rem 1rem 1rem;
@@ -202,62 +200,11 @@ hr {
     margin-bottom: 30px;
 }
 
-
-.quote-form {
-    text-align: center;
-}
-
-.quote-form input {
-    height: 50px;
-    width: 22.991453%;
-    border: none;
-    border-radius: 2px;
-    line-height: 50px;
-    font-size: 0.9rem;
-    padding: 6px;
-}
-
-.quote-form a,
-.newsletter form a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.8rem;
-    background: #ffbb42;
-    padding: 14px 33px;
-    border-radius: 2px;
-}
-
-.input-gutter {
-    margin-left: 10px;
-}
-
-.quote-form ::-webkit-input-placeholder,
-.newsletter form ::-webkit-input-placeholder {
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 10px;
-}
-
-.quote-form ::-moz-input-placeholder,
-.newsletter form ::-moz-input-placeholder  {
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 10px;
-}
-
-.quote-form :-ms-input-placeholder,
-.newsletter form :-ms-input-placeholder {
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 10px;
-}
-
-
 .img-laptop {
     display: block;
     margin: 50px auto -500px;
     padding: 0 261px;
     max-width: 100%;
-
 }
 
 
@@ -700,22 +647,6 @@ hr {
 }
 
 
-.newsletter form {
-    margin: 50px 0 0 190px;
-}
-
-.newsletter form input {
-    border: 1px solid #e2e9f0;
-    border-width: thin;
-    height: 50px;
-    width: 269px;
-    border-radius: 2px;
-    line-height: 50px;
-    font-size: 0.9rem;
-    padding: 6px;
-}
-
-
 .address-wrapper {
     background-image: url("img/map.jpg");
     background-repeat: no-repeat;
@@ -803,6 +734,15 @@ footer > a {
 }
 
 
+footer a[href="tel:+987-9976-999"]::before {
+    font-family: fontAwesome;
+    content:'\f095';
+    color: #394b50;
+    font-size: 1.2rem;
+    margin-right: 8px;   
+}
+
+
 .social i {
     margin: 20px 10px 50px;
     color: #709dca;
@@ -819,10 +759,63 @@ footer > a {
 
 
 
-/*================== Shared Icons =================*/
+/*================== Forms =================*/
 
-.form-name::-webkit-input-placeholder::before,
-.newsletter-name::-webkit-input-placeholder::before {
+.form-wrap {
+    text-align: center;
+}
+
+
+.form-wrap input {
+    height: 50px;
+    width: 22.991453%;
+    border: none;
+    border-radius: 2px;
+    line-height: 50px;
+    font-size: 0.9rem;
+    padding: 6px;
+}
+
+.input-gutter {
+    margin-left: 10px;
+
+
+}
+.form-wrap a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    background: #ffbb42;
+    padding: 14px 33px;
+    border-radius: 2px;
+}
+
+
+.form-wrap ::-webkit-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+}
+
+.form-wrap ::-moz-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+}
+
+.form-wrap :-ms-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+}
+
+.form-wrap .newsletter-border {
+    border: 1px solid #e2e9f0;
+    border-width: thin;
+}
+
+
+
+.form-name::-webkit-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f007';
     color: #6e6e6e;
@@ -830,8 +823,7 @@ footer > a {
     margin-right: 8px;   
 }
 
-.form-name::-moz-input-placeholder::before,
-.newsletter-name::-moz-input-placeholder::before {
+.form-name::-moz-input-placeholder::before {
      font-family: fontAwesome;
     content:'\f007';
     color: #6e6e6e;
@@ -839,8 +831,7 @@ footer > a {
     margin-right: 8px;  
 }
 
-.form-name:-ms-input-placeholder::before,
-.newsletter-name:-ms-input-placeholder::before {
+.form-name:-ms-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f007';
     color: #6e6e6e;
@@ -848,8 +839,8 @@ footer > a {
     margin-right: 8px;  
 }
 
-.form-email::-webkit-input-placeholder::before,
-.newsletter-email::-webkit-input-placeholder::before {
+
+.form-email::-webkit-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f0e0';
     color: #6e6e6e;
@@ -857,8 +848,7 @@ footer > a {
     margin-right: 8px;   
 }
 
-.form-email::-moz-input-placeholder::before,
-.newsletter-email::-moz-input-placeholder::before {
+.form-email::-moz-input-placeholder::before {
      font-family: fontAwesome;
     content:'\f0e0';
     color: #6e6e6e;
@@ -866,14 +856,14 @@ footer > a {
     margin-right: 8px;  
 }
 
-.form-email:-ms-input-placeholder::before,
-.newsletter-email:-ms-input-placeholder::before {
+.form-email:-ms-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f0e0';
     color: #6e6e6e;
     font-size: 1.3rem;
     margin-right: 8px;  
 }
+
 
 .form-phone::-webkit-input-placeholder::before {
     font-family: fontAwesome;
@@ -899,16 +889,6 @@ footer > a {
     margin-right: 8px;  
 }
 
-footer a[href="tel:+987-9976-999"]::before {
-    font-family: fontAwesome;
-    content:'\f095';
-    color: #394b50;
-    font-size: 1.2rem;
-    margin-right: 8px;   
-}
-
-
-
 
 /*================== State =================*/
 
@@ -918,7 +898,7 @@ footer a[href="tel:+987-9976-999"]::before {
 }
 
 
-.quote-form a:hover,
+.form-wrap a:hover,
 .chooseprice a:hover,
 .howitworks a:hover,
 .newsletter form a:hover {
@@ -946,7 +926,54 @@ footer a[href="tel:+987-9976-999"]::before {
 
 
 
+
 /*================== Media Queries =================*/
 
+@media only screen and (max-width: 400px) {
+
+/*================== Header =================*/
+
+.main-header {
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.main-nav {
+    float: none;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header-logo {
+    display: block;
+    width: 40px;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;   
+}
+
+
+.main-nav ul {
+    display: block;
+}
+.main-nav li {
+    margin: 1px;
+}
+.nav-buttons a {
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #868686;
+    font-size: 0.6rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/*================== Quote =================*/
+
+
+
+
+}
 
 
