@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <title>Business Theme</title>
         <link href="styles.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans:700|Hind:700|Open+Sans:300|Open+Sans:700|IM+Fell+Great+Primer+SC:400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Sans:700%7CHind:700%7COpen+Sans:300%7COpen+Sans:700%7CIM+Fell+Great+Primer+SC:400' rel='stylesheet' type='text/css'>
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
 
@@ -16,7 +16,7 @@
             
             <div class="logo-container">
                 <a href="#">
-                    <img class="header-logo" src="img/logo.png" alt="company logo">
+                    <img class="main-header-logo" src="img/logo.png" alt="company logo">
                 </a>
             </div>
             
@@ -47,11 +47,11 @@
             <form class="form-wrap">
                 <input type="text" name="fullName" placeholder="Full Name" class="form-name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'">
                 <input type="email" name="email" placeholder="Email Address" class="input-gutter form-email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'">
-                <input type="phone" name="phone" placeholder="Phone Number" class="input-gutter form-phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
+                <input type="tel" name="phone" placeholder="Phone Number" class="input-gutter form-phone" onfocus="this.placeholder=''" onblur="this.placeholder='Phone Number'">
                 <a href="#" class="input-gutter">Request A Quote</a>
             </form>
            
-            <img src="img/laptop.png" alt="laptop" class="img-laptop">
+            <div class="img-laptop"></div>
          
         </section>
 
@@ -104,7 +104,7 @@
 <!-- Choose Your Price -->
 
 
-        <section class="chooseprice" id="chooseprice">
+        <section class="chooseprice clearfix" id="chooseprice">
 
             <h2>Choose Your Price</h2>
             <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h3>
@@ -114,14 +114,11 @@
                     <li class="chooseprice-heading">Basic Plan</li>
                     <li class="chooseprice-pricing">$22</li>
                     <li class="chooseprice-pm">Per Month</li>
-                    <hr>
-                    <li>1 Account</li>
-                    <hr>
-                    <li>8 Hour Support</li>
-                    <hr>
-                    <li>Custom Cloud Services</li>
+                    <li><hr>1 Account</li>
+                    <li><hr>8 Hour Support</li>
+                    <li><hr>Custom Cloud Services</li>
                 </ul>
-                <a href="#">Get Started</a>
+                <a href="#" class="btn-getstarted">Get Started</a>
             </div>
 
             <div class="chooseprice-premium">
@@ -129,14 +126,11 @@
                     <li class="chooseprice-heading">Premium Plan</li>
                     <li class="chooseprice-pricing">$42</li>
                     <li class="chooseprice-pm">Per Month</li>
-                    <hr>
-                    <li>2 Accounts</li>
-                    <hr>
-                    <li>100MB Storage</li>
-                    <hr>
-                    <li>Custom Cloud Services</li>
+                    <li><hr>2 Accounts</li>
+                    <li><hr>100MB Storage</li>
+                    <li><hr>Custom Cloud Services</li>
                 </ul>
-                <a href="#">Get Started</a>
+                <a href="#" class="btn-getstarted">Get Started</a>
             </div>
 
             <div class="chooseprice-gold">
@@ -144,14 +138,11 @@
                     <li class="chooseprice-heading">Gold Plan</li>
                     <li class="chooseprice-pricing">$62</li>
                     <li class="chooseprice-pm">Per Month</li>
-                    <hr>
-                    <li>8 Accounts</li>
-                    <hr>
-                    <li>24 Hour Support</li>
-                    <hr>
-                    <li>Custom Cloud Services</li>
+                    <li><hr>8 Accounts</li>
+                    <li><hr>24 Hour Support</li>
+                    <li><hr>Custom Cloud Services</li>
                 </ul>
-                <a href="#">Get Started</a>
+                <a href="#" class="btn-getstarted">Get Started</a>
             </div>
         
         </section>
@@ -168,15 +159,12 @@
             
             <ol class="howitworks-steps">
                 <li>Step 1<small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</small></li>
-
                 <li>Step 2<small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</small></li>
-
                 <li>Step 3<small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</small></li>
-
                 <li>Step 4<small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</small></li>
             </ol>
 
-            <a href="#">Get Started Now</a>
+            <a href="#" class="btn-getstarted">Get Started Now</a>
 
         </section>
     
@@ -190,36 +178,36 @@
             
             <div class="happyclients-profile-container clearfix">
 
-                <div class="happyclients-profile">
+                <div class="happyclients-profile clearfix">
                     <div class="crop">
-                        <img src="img/darwinmichle.jpg">
+                        <img src="img/darwinmichle.jpg" alt="Happy client Darwin Michle">
                     </div>
 
                     <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</blockquote>
                     <span><i class="happyclients-name">Darwin Michle,</i> Project manager</span>
                 </div>
 
-                <div class="happyclients-profile">
+                <div class="happyclients-profile clearfix">
                     <div class="crop">
-                        <img src="img/madame.jpg">
+                        <img src="img/madame.jpg" alt="Happy client Madam Elisabath">
                     </div>
 
                     <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</blockquote>
                     <span><i class="happyclients-name">Madam Elisabath,</i> Creative Director</span>
                 </div>
             
-                <div class="happyclients-profile">
+                <div class="happyclients-profile clearfix">
                     <div class="crop">
-                        <img src="img/clipsarter.jpg">
+                        <img src="img/clipsarter.jpg" alt="Happy client Clips Arter">
                     </div>
 
                     <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</blockquote>
                     <span><i class="happyclients-name">Clips arter,</i> Lipsum directer</span>
                 </div>
 
-                <div class="happyclients-profile">
+                <div class="happyclients-profile clearfix">
                     <div class="crop">
-                        <img src="img/zamc.jpg">
+                        <img src="img/zamc.jpg" alt="Happy client Zam Cristafr">
                     </div>
 
                     <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</blockquote>
