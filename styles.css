@@ -208,6 +208,7 @@ hr {
 }
 
 
+
 .form-name::-webkit-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f007';
@@ -217,7 +218,7 @@ hr {
 }
 
 .form-name::-moz-input-placeholder::before {
-     font-family: fontAwesome;
+    font-family: fontAwesome;
     content:'\f007';
     color: #6e6e6e;
     font-size: 0.9rem;
@@ -1303,9 +1304,6 @@ footer a[href="tel:+987-9976-999"]::before {
         display: inline-block;
         margin: 0;
         transition: 0.25s ease-in-out;
-        -webkit-transition: 0.25s ease-in-out;
-        -moz-transition: 0.25s ease-in-out;
-        -o-transition: 0.25s ease-in-out;
     }
 
     .chooseprice-premium {
@@ -1533,7 +1531,8 @@ footer a[href="tel:+987-9976-999"]::before {
         background-color: #709dca;
         color: white;
         -webkit-transform: scale(1.05);
-                transform: scale(1.05);
+                -ms-transform: scale(1.05);
+            transform: scale(1.05);
     }
 
 
