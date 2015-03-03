@@ -161,11 +161,11 @@ hr {
 
 
 .form-wrap input {
-    height: 40px;
-    width: 38%;
+    height: 30px;
+    width: 42%;
     border: none;
     border-radius: 2px;
-    line-height: 40px;
+    line-height: 30px;
     font-size: 0.7rem;
     padding: 6px;
     display: block;
@@ -183,7 +183,7 @@ hr {
     border-radius: 2px;
     display: block;
     margin: 0 auto;
-    width: 38%;
+    width: 42%;
 }
 
 
@@ -367,7 +367,7 @@ hr {
 }
 
 
-.services ul :nth-child(odd) {
+.services-list-header {
     text-transform: uppercase;
     font-family: 'Droid Sans', sans-serif;
     font-size: 0.7rem;
@@ -375,7 +375,7 @@ hr {
     margin-left: 54px;
 }
 
-.services ul :nth-child(even) {
+.services-list-content {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.7rem;
     line-height: 1.3rem;
@@ -1183,12 +1183,12 @@ footer a[href="tel:+987-9976-999"]::before {
     }
 
 
-    .services ul :nth-child(odd) {
+    .services-list-header {
         font-size: 0.9rem;
         margin-left: 81px;
     }
 
-    .services ul :nth-child(even) {
+    .services-list-content {
         font-size: 0.8rem;
         line-height: 1.8rem;
         margin-bottom: 60px; 
