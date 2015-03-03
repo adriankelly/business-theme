@@ -170,7 +170,8 @@ hr {
     padding: 6px;
     display: block;
     margin: 8px auto;
-    box-shadow: none;
+    box-shadow: none !important;
+    -webkit-appearance: none;
 }
 
 .form-wrap a {
