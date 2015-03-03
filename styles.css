@@ -207,6 +207,8 @@ hr {
 .form-wrap .newsletter-border {
     border: 1px solid #e2e9f0;
     border-width: thin;
+    -webkit-appearance: none;
+    box-shadow: none !important;
 }
 
 
